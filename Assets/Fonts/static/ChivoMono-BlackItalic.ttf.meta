@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: 720f409b025b70c46ad166eb1da64522
+timeCreated: 1681894610
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Chivo Mono
+  fontNames:
+  - Chivo Mono
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 46e24840c1b2c0543a1ced7d2e42674e, type: 3}
+  - {fileID: 12800000, guid: 0ccbfc72170a219409f79f205f151134, type: 3}
+  - {fileID: 12800000, guid: 6dc4c8c4378c56d438c1d029ec00d681, type: 3}
+  - {fileID: 12800000, guid: 19b48c2730394fc478afbc71c76930f8, type: 3}
+  - {fileID: 12800000, guid: 148a69e7464fe804f8f35fc7c391c048, type: 3}
+  - {fileID: 12800000, guid: 2b5136da936f6034d90fb15f7c9b9b0a, type: 3}
+  - {fileID: 12800000, guid: 101f881b56e91f24e82579637b096876, type: 3}
+  - {fileID: 12800000, guid: 626c37ad963c6df4aa99e65c9fbde186, type: 3}
+  - {fileID: 12800000, guid: 612dc4bd2b9bdbf47b2548023904a09c, type: 3}
+  - {fileID: 12800000, guid: 1b01af9e7e676f842a4b70ba226c571b, type: 3}
+  - {fileID: 12800000, guid: 3c76346f9bfe49347a9ab41be3a23345, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
