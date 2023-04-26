@@ -12,9 +12,9 @@
 - [x] Toggle Group Component usage
 - [x] DropDown Element usage
 - [x] Slider Element usage
-- [ ] Audio Source  Integration in Scene
-- [ ] Scroll View Element usage
-- [ ] Drag and Drop Function Integration
-- [ ] Switching Between Scenes
+- [x] Audio Source  Integration in Scene
+- [x] Scroll View Element usage
+- [x] Drag and Drop Function Integration
+- [x] Switching Between Scenes
 - [ ] Object Generating
 - [ ] Project Import in .exe
