@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ImageOpener : MonoBehaviour {
+public class ImageOpener : MonoBehaviour
+{
     public GameObject beanImg;
     public GameObject omeImg;
     public GameObject lacisImg;
@@ -12,6 +13,8 @@ public class ImageOpener : MonoBehaviour {
     public GameObject LeftToggle;
     public GameObject ImageChanger;
     public Sprite[] ImageArray;
+    public GameObject SliderSize;
+    public GameObject SliderRotation;
     public void beanImagener(bool On)
     {
         beanImg.SetActive(On);
@@ -38,7 +41,7 @@ public class ImageOpener : MonoBehaviour {
     {
         beanImg.transform.localScale = new Vector2(-1, 1);
     }
-    public void Number(int num) 
+    public void Number(int num)
     {
         if (num == 0)
         {
@@ -53,5 +56,16 @@ public class ImageOpener : MonoBehaviour {
             ImageChanger.GetComponent<Image>().sprite = ImageArray[2];
         }
         else { Debug.Log("No images"); }
+    }
+    public void changeSize()
+    {
+        float currentSize = SliderSize.GetComponent<Slider>().value;
+        ImageChanger.transform.localScale = new Vector2(1f * currentSize, 1f * currentSize);
+    }
+
+    public void changeRotation()
+    {
+        float currentRotation = SliderRotation.GetComponent<Slider>().value;
+        ImageChanger.transform.localRotation = Quaternion.Euler(0, 0, currentRotation * 360);
     }
 }
