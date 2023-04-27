@@ -16,5 +16,5 @@
 - [x] Scroll View Element usage
 - [x] Drag and Drop Function Integration
 - [x] Switching Between Scenes
-- [ ] Object Generating
-- [ ] Project Import in .exe
+- [x] Object Generating
+- [x] Project Import in .exe
